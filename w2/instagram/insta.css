@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+main{
+    display: grid;
+    grid-template-areas: "left right";
+    grid-template-columns: 52% 48%;
+    height: 900px;
+}
+
+.left{
+    grid-area: "left";
+}
+
+.phone{
+    position: relative;
+    background-image: url(images/phone.png);
+    height: 618px;
+    width: 454px;
+    top: 130px; 
+    margin: 0px -15px auto auto;
+    overflow: hidden;
+}
+
+.right{
+    grid-area: "right";
+    z-index: 5;
+}
+
+article{
+    width: 350px;
+    height: 812px;
+    margin-top: 40px;
+}
+
+.signin{
+    height: 620px;
+    background: white;
+    border: 1px solid gainsboro;
+}
+
+h1{
+    margin: 35px auto 10px 87px;
+    background-image: url(images/b20f2a3cd7e4.png);
+    background-repeat: no-repeat;
+    background-position: -98px 0;
+    height: 51px;
+    width: 175px;
+}
+
+form{
+    height: 500px;
+}
+
+h2{
+    display: inline-block;
+    color: #999;
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 17px;
+    margin: 0 40px 10px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.blueblock{
+    background-color: #3897f0;
+    width: 248px;
+    height: 20px;
+    padding: 5px 9px;
+    border: 1px solid #3897f0;
+    border-radius: 5px;
+    margin: 10px auto 0px;
+}
+
+.blueblock p{
+    color: white;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+
+.lineorline h2{
+    margin: 15px 12px;
+    font-size: 13px;
+}
+
+.line{
+    display: inline-block;
+    background-color: rgba(var(--b38,219,219,219),1);
+    height: 1px;
+    width: 101px;
+    margin: 5px auto;
+}
+
+.in{
+    width: 256px;
+    height: 36px;
+    background-color: #fafafa;
+    border: 1px solid #eee;
+    margin: 0 auto 6px;
+    border-radius: 3px;
+    color: #999;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 10px;
+    font-family: sans-serif;
+}
+
+.login{
+    height: 70px;
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    text-align: center;
+    font-size: 14px;
+}
+
+#info{
+    margin: 20px 70px;
+    color: #999;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+
+li{
+    color: rgba(var(--fe0,0,53,105),1);
+    margin: 7px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 600;
+    display: inline;
+}
+
+ul{
+    padding: 0;
+}
+
+.footer{
+    height: 113px;
+    text-align: left;
+    color: #999;
+    
+}
+
+span{
+    font-size: 13px;
+    font-weight: bold;
+}

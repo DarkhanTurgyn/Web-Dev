@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    background: #f3f6fa;
+    font: 13px/18px Tahoma,sans-serif,Arial,Helvetica;
+    color: #999;
+    overflow: hidden;
+}
+
+.head{
+    background: #5682a3;
+    height: 226px;
+}
+
+.login{
+    height: 480px;
+    width: 404px;
+    margin: -131px auto 90px;
+}
+
+.login_head{
+    background: #5682a3;
+    height: 75px;
+}
+
+.login_form{
+    background: #fff;
+    border-radius: 2px;
+    height: 250px;
+    width: 274px;
+    padding: 44px 65px;
+}
+.about{
+    color: #84a2bc;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 25px;
+    text-align: center;
+    
+}
+
+#wh{
+    font-weight: 700;
+}
+
+.next{
+    width: 80;
+    height: 75;
+    float: right;
+}
+
+#next2{
+    font-size: 13px;
+    line-height: 20px;
+    padding: 27px 15px 28px;
+    display: inline-block;
+    color: #fff;
+    font-weight: 700;
+}
+
+.signin{
+    color: #222;
+    margin: 0 0 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+p{
+    margin: 15px 0 30px;
+    font-size: 13px;
+    line-height: 160%;
+}
+
+.country{
+    height: 50px;
+    margin-bottom: 22px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.countryin{
+    padding: 3px 0 0;
+    margin: 3px 0 0;
+    color: #000;
+}
+
+.phone{
+    height: 72px;
+}
+
+.code{
+    float: left;
+    width: 50px;
+    margin-right: 25px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 22px;
+}
+
+.codeinput{
+    color: #000;
+    background: #fff;
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    font-size: 13px;
+    padding: 3px 0;
+    margin: 3px 0 0;
+    width: 100%;
+    resize: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.number{
+    height: 43px;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 0;
+    margin: 0 0 22px;
+    width: 199px;
+    float: right;
+}
+
+.logo{
+    display: inline-block;
+    line-height: 30px;
+    padding: 20px 67px 22px;
+    width: 60px;
+    height: 10px;
+}

@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+
+header{
+    height: 70px;
+    border: 1px dotted indigo;
+}
+
+main{
+    background-image: url(simple-codelines.svg);
+    background-color: #2b3137;
+}
+
+
+.left{
+    display: inline-block;
+    height: 580px;
+    width: 740px;
+    border: 1px solid palegoldenrod;
+}
+
+.right{
+    display: inline-block;
+    height: 500px;
+    width: 427px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 65px auto auto 0px;
+}
+
+.left h1{
+    margin-top: 200px;
+}
